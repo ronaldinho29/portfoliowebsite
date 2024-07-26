@@ -3,12 +3,3 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
-/* Header */
-header #scrolling-text {
-    animation: blink 1s infinite, glow 1.5s infinite alternate;
-    color: #fff;
-    font-weight: bold;
-    display: inline-block;
-    padding: 5px;
-}
