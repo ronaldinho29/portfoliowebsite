@@ -134,16 +134,16 @@
 									<div class="project-content">
 										<h3 class="project-title" style="font-size: 1.5em; color: #fff; background-color: #333; padding: 10px; margin: 0; border-bottom: 1px solid #ddd; font-weight: bold;">Coin Grid Game</h3>
 										<img src="images/Coin Grid Game Collage.png" alt="Coin Grid Game" class="project-image"/>
-										<p class="project-description">Classic Coin Grid Game using Dart and Flutter, allowing players to enjoy a seamless and engaging experience.</p>
+										<p class="project-description">Coin Grid Game: An engaging game developed with Dart and Flutter where players uncover coins while avoiding mines, featuring a dynamic wallet system and engaging gameplay elements. User profiles and real-time game data are efficiently managed using MongoDB.</p>
 										<a href="https://github.com/ronaldinho29/CoinGridGame" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
 
 									</div>
 								</li>
-								<li class="project-Bot">
+								<li class="project-item">
 									<div class="project-content">
-										<h3 class="project-title" style="font-size: 1.5em; color: #fff; background-color: #333; padding: 10px; margin: 0; border-bottom: 1px solid #ddd; font-weight: bold;">New Project Title</h3>
+										<h3 class="project-title" style="font-size: 1.5em; color: #fff; background-color: #333; padding: 10px; margin: 0; border-bottom: 1px solid #ddd; font-weight: bold;">BudgetBot AI</h3>
 										<img src="images/BudgetBot.png" alt="BudgetBot" class="project-image"/>
-										<p class="project-description">BudgetBot: A sophisticated budgeting assistant developed using Next.js and the OpenAI API. This tool intelligently analyzes user input to offer insightful financial advice and budget management tips. Leveraging the power of Next.js for seamless server-side rendering and the OpenAI API for advanced conversational capabilities, BudgetBot provides users with personalized recommendations to optimize their spending and savings.</p>
+										<p class="project-description">BudgetBot: A smart budgeting assistant built with Next.js and the OpenAI API. It analyzes user input to provide tailored financial advice and budget tips. Utilizing Next.js for efficient server-side rendering and OpenAI for advanced conversation, BudgetBot helps users optimize spending and savings.</p>
 										<a href="https://github.com/ronaldinho29/BudgetBot" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
 									</div>
 								</li>
@@ -168,6 +168,10 @@
 									width: 40%;
 									max-width: 300px;
 									perspective: 1000px; 
+									display: flex;
+    								flex-direction: column;
+    								align-items: center;
+    								position: relative;
 								}
 							
 								.project-content {
@@ -176,18 +180,22 @@
 									transform-style: preserve-3d;
 									width: 100%;
 									height: 100%;
+									justify-content: space-between; /* Align items */
 								}
 							
 								.project-image {
 									width: 100%;
-									height: auto;
+									height: 170px;
+									object-fit: contain; 
 									border-bottom: 1px solid #ddd;
+
 								}
 							
 								.project-description {
 									font-size: 0.9em;
 									color: #333;
 									padding: 10px;
+									margin-top: auto; /* Ensure the description is at the bottom */
 								}
 							</style>
 							
